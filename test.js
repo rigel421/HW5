@@ -1,5 +1,5 @@
 function myScript(key) {
-    if (key.keyCode == "187") //if the + key is pressed. The directions say the code is 107
+    if (key.keyCode == "107") //if the + key is pressed. The directions say the code is 107
     {
         text = document.getElementById("b");
         style = window.getComputedStyle(text, null).getPropertyValue('font-size');
@@ -11,7 +11,7 @@ function myScript(key) {
             window.removeEventListener("keyup", myScript);
     }
     }
-    else if (key.keyCode == "189")
+    else if (key.keyCode == "109")
     {
         text = document.getElementById("b");
         style = window.getComputedStyle(text, null).getPropertyValue('font-size');
